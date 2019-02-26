@@ -5,16 +5,25 @@ body.Principal{
     width: 1450px;
     margin: auto;
 }
-
+/*aside#logo{
+    background-color: rgb(145, 112, 125);
+    width: 0%;
+    float: left;
+}*/
+/* #logo{
+    text-align: center;
+    float: right;
+} */
 .headercontainer{
     width: 100%;
 }
-
+footer.foot{
+    text-align: center;
+}
 .ImageHead{
     width: 40%;
     position: relative;
     float: left;
-    padding-left: 20px;
 }
 .TextHead{
     width: 60%;
@@ -35,20 +44,17 @@ body.Principal{
     width: 450px;
     height: 300px;
 }
-.foot{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    border-radius: 10px;
 
-    }
 #littleh{
+
     text-shadow: 3px 5px rgb(45, 72, 107);
     text-align: center;
     float: left;
 }
+/* body>div>header>div>small{
+    float: left;
+    margin-top: 50px;
+} */
 a{
     text-decoration: none;
     color: rgb(160, 87, 167);
@@ -69,7 +75,9 @@ background-color:  rgb(160, 87, 167);
     margin: auto;
     margin-top: 10px;
     border: 3px solid rgb(94, 17, 97);
-    }
+    
+
+}
 nav>ul{
     list-style: none;
     margin: 0;
@@ -112,11 +120,9 @@ img#icono{
 }
 div.gallery {
     margin: 5px;
-   /* border: 1px solid #ccc;*/
+    border: 1px solid #ccc;
     float: left;
     width: 180px;
-    margin-right: 100px;
-    margin-left: 55px;
   }
   
   div.gallery:hover {
@@ -133,18 +139,3 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-/*.Everything{
-    height: ;
-}*/
-.IntroText{
-    text-align: justify;
-    height: 20%;
-    margin-bottom: 20px;
-}
-.FinalText{
-    height: 30%;
-    text-align: justify;
-    padding-left: 20px; 
-    width: 50%;
-    float: left;    
-}

@@ -10,16 +10,20 @@
 <body class = "Principal">
     <div>
         <header>
-            <header>
-                <div id="logo">
-                            <img id="logo" src="Images/logo.png" alt="logo">
-                      
-                </div>
-            <article>
-                <h1 id = "MainText">Contact</h1>
-                <small>by Alejandra Molina</small>
-            </article>
-        </header>
+           
+            
+            <div class="headercontainer">
+                    <div class = "ImageHead">                  
+                            <img id="logoheader" src="Images/logo.png" alt="logo">
+                    </div>
+                    <div class="TextHead">
+                    <h1 id = "MainText">Book Store HOME</h1>
+                    <small  id="littleh">by Alejandra Molina</small>
+                    </div>
+        </div>
+                
+
+            </header>
         <nav id="navbar">
 
             <ul class="list-sm">
@@ -32,13 +36,38 @@
             </ul>
 
         </nav>
+<section>
+    <h3>Contact form</h3>
+    <form action="phpprocess/contact.php" method="get">
+        <input type="text" name="username" placeholder="User name">
+        <input type="email" name="useremail" placeholder="User email">
+        <textarea name="usercomments" rows="10" cols="30">
+            </textarea>
 
-                <img id = "icono" src="Images/Icons/facebook.png" alt="facebook"> <br></br>
-                <img id = "icono"src="Images/Icons/Twitter.png" alt="twitter"><br></br>
-                <img id = "icono"src="Images/Icons/whatsapp.png"alt="whatsapp"><br></br>
-                <img id = "icono"src="Images/Icons/phone.png" alt="Phone"><br></br>
-                <img id = "icono" src="Images/Icons/mail-512.png" alt="email"><br></br>
+        <input type="submit" value="Enviar comentarios">
 
+
+
+    </form>
+</section>
+<section>
+    <h3>Update form</h3>
+    <form action="phpprocess/update.php" method="get">
+        <input type="text" name="username" placeholder="User name">
+        <input type="email" name="useremail" placeholder="User email">
+        <textarea name="usercomments" rows="10" cols="30">
+            </textarea>
+        <input type="text" name="usernameup" placeholder="User name">
+        <input type="submit" value="Actualizar">
+   </form>
+</section>
+<section>
+    <h3>Delete form</h3>
+    <form action="phpprocess/delete.php" method="get">
+         <input type="text" name="usernamedel" placeholder="User name">
+        <input type="submit" value="Eliminar">
+   </form>
+</section>
     </div>
     
 </body>
