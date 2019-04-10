@@ -18,7 +18,8 @@
             VALUES ('$usernameform','$useremail','$usercomments')";
 
             if(mysqli_query($connection,$sqlquery)){
-                echo "Data inserted correctly";
+               //echo "Data inserted correctly";
+             header("Location: http://localhost/Proyecto-219.2-PII/Contact.html");
             }else{
                 echo "Error in insertion";
             }

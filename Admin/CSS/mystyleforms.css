@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(194, 250, 247);
+
+   
+}
+h1{
+  text-align: center;
+  color: #1F6F99;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type=text], input[type=password] {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  form {
+    border: 3px solid rgba(0, 0, 0, 0.301);
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding-left: 10px; 
+    padding-right: 15px;
+  }
+  input[type=submit]{
+    background-color: rgb(216, 170, 235);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15%;
+  }
+  input[type=reset]{
+    background-color: rgb(216, 170, 235);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15%;
+  }
+  p{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      padding-right: 5px;
+      color: #1F6F99;
+  }
+  .titles{
+    float: left;
+  }
+  .titles>p{
+    padding-bottom: 22px;
+  }
+  #inputs{
+    width: 150px;
+    float: left;
+  }
+  #button{
+    clear: left;
+    
+   }
+   .titlesleft{
+     float: left;
+   }
+   .titlesleft>p{
+    padding-bottom: 22px;
+  }
+  .one{
+    padding-top: 11px;
+  }
+  .two{
+    padding-top: 25px;
+  }
+  .three{
+    padding-top: 16px;
+  }
+  .four{
+    padding-top: 25px;
+  }
+  .five{
+    padding-top: 20px;
+  }
+  .six{
+    padding-top: 15px;
+  }
+  .seven{
+    padding-top: 23px;
+  }
+  .eight{
+    padding-top: 23px;
+  }
+  .nine{
+    padding-top: 23px;
+  }
+  .cred{
+    padding-top: 25px;
+  }
+  .foot{
+    padding-top: 20px;
+  }
+  .rite{
+    padding-top: 15px;
+  }
+   .titlesright{
+     float: left;
+
+   }
+   .titlesright>p{
+    padding-bottom: 22px;
+    }
+   .titles{
+     float: left;
+   }
+   .inputsleft{
+     width: 150px;
+     float: right;
+   }
+   .inputsright{
+     width: 150px;
+    float: left;
+   }
+   .tododerecha{
+    /* padding-left: 50px; */
+    float: right;
+   }
+  /* .todoizq{
+    padding-right: 50px;
+  } */
+  .enmedio{
+    width: 30px;
+  }
+  .bot{
+    clear: both;
+  }

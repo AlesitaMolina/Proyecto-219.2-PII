@@ -1,0 +1,75 @@
+body{
+    background-color: aliceblue;
+}
+#backimage{
+    float: right;
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(95, 132, 192);
+}
+.littleh{
+    text-align: center;
+}
+.centrado{
+    margin: 100px auto;
+    display: block;
+
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 12px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 80px;
+    background-color: #FF8AF9;
+  }
+  
+  #aboutus {
+    top: 140px;
+    background-color: #80A8E8; /* Blue */
+  }
+  
+  #products {
+    top: 200px;
+    background-color: #99FFAC; /* Red */
+  }
+  
+  #services {
+    top: 260px;
+    background-color: #E8D680 /* Light Black */
+  }
+  #contact {
+    top: 320px;
+    background-color: #80A8E8 /* Light Black */
+  }
+  #read {
+    top: 380px;
+    background-color: #FF8AF9 /* Light Black */
+  }
+  .foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(95, 132, 192);
+
+    }
